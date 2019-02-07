@@ -1,9 +1,8 @@
 # Add  code here!
 def prime?(n)
-n.each|check| do 
-  if check < 1 
+  if n < 1 
     return false
-  elsif check%check = 1
+  elsif n%n == 1
     return true 
   else 
     return false 
