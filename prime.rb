@@ -1,2 +1,4 @@
 # Add  code here!
-prime?(n)
+def prime?(n)
+
+if n%2 == 0 
