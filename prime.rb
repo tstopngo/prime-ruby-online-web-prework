@@ -1,6 +1,8 @@
 # Add  code here!
 def prime?(n)
-  if n%n == 1
+  if n <= l
+    return false
+  elsif n%n == 1
     return true 
   else 
     return false 
