@@ -7,5 +7,5 @@ n.each|check| do
     return true 
   else 
     return false 
-
+  end
 end
