@@ -1,8 +1,10 @@
 # Add  code here!
 def prime?(n)
-if n % 2 == 0 || n % 3 == 1 || n == 0 
+if n % 2 == 0 || n % 3 == 0 || n == 0 
   return false
-else
+elsif n == 2 || n == 3
   return true
+else 
+  return false
   end
 end
