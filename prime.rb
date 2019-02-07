@@ -3,7 +3,7 @@ def prime?(n)
 n.each|check| do 
   if check < 1 
     return false
-  elsif check % 1 || check%check = 
+  elsif check%check = 1
     return true 
   else 
     return false 
