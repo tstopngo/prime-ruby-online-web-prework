@@ -1,4 +1,5 @@
 # Add  code here!
-def prime?(1..n)
+def prime?(n)
+  
   
 end
